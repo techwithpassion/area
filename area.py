@@ -1,6 +1,7 @@
-ch='y'
+print("press (y) to start the programe: ")
+ch=input()
 while ch=='y' or ch=='Y':
-    x=input("1.area of rectangle\n 2.area of circle\n 3.area of square\n 4. area of triangle\n")
+    x=input("1.area of rectangle\n2.area of circle\n3.area of square\n4.area of triangle\n")
     if(x=='1'):
         l=int(input("Enter the lenght of rectangle="))
         b=int(input("Enter the breadth of rectangle="))
@@ -17,9 +18,8 @@ while ch=='y' or ch=='Y':
         print("area of triangle is" , 1/2 * b * h)
     else:
         print("wrong input")
-    ch=input("do you want more calculations y\n")
+    ch=input("do you want more calculations press y\nif no then press N\n")
 print("Thanks for using!!")
-             
          
     
 
