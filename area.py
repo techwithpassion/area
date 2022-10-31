@@ -19,6 +19,10 @@ while ch=='y' or ch=='Y':
         b = int(input("enter the base of triangle = "))
         h = int(input("enter the height of triangle = "))
         print("area of triangle is" , 1/2 * b * h)
+    elif(x=='6'):
+        b = int(input("enter the base of triangle = "))
+        h = int(input("enter the height of triangle = "))
+        print("area of triangle is" , 1/2 * b * h)
     else:
         print("wrong input")
     ch=input("do you want more calculations y\n")
